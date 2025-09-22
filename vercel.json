@@ -16,6 +16,10 @@
     {
       "path": "/api/cron/create-weekly-task",
       "schedule": "30 13 * * 0"
+    },
+    {
+      "path": "/api/cron/create-monthly-structure",
+      "schedule": "30 13 28 * *"
     }
   ]
 }
