@@ -1,0 +1,13 @@
+{
+  "functions": {
+    "index.js": {
+      "maxDuration": 30
+    }
+  },
+  "crons": [
+    {
+      "path": "/api/cron/create-weekly-task",
+      "schedule": "30 13 * * 0"
+    }
+  ]
+}
